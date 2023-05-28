@@ -64,7 +64,7 @@ export default function Navbar() {
         </div>  
     </div>
     { isClicked &&
-        <div className='absolute z-10 bg-White rounded-lg mobile:h-fit mobile:w-[340px]  mobile:right-[130px] mobile:top-[80px] drop-shadow-lg m-2'>
+        <div className='absolute z-10 bg-White rounded-lg h-fit mobile:w-[340px]  mobile:right-[130px] mobile:top-[80px] drop-shadow-lg m-2'>
             <div className='text-[16px]  font-bold border-b-2 p-4 '>Cart</div>
             <Cart className='flex flex-col justify-center items-center h-full'></Cart>
         </div>}
